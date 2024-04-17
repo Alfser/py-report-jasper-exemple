@@ -17,4 +17,4 @@ pg_restore -U <username> -d cadastro -f sql/cadastro.sql
 cp .credential_db-exemple.ini .credential_db.ini
 ```
 
-- finally, you can run the exeample.
+- finally, install requirements `pip install -r requirements.txt` and run the exemple `python main.py` .
