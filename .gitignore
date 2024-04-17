@@ -1,0 +1,7 @@
+
+.env
+.vscode
+reports/.project
+.credentials_db.ini
+__pycache__
+**/*.pdf
