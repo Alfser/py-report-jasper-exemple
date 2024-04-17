@@ -8,13 +8,13 @@ A report generate example using Python, JasperReport and PostgresSQL
 - then, restore postgres dump in `sql/cadastro.sql` using command ballow.
 
 ```bash
-> pg_restore -U <username> -d cadastro -f sql/cadastro.sql
+pg_restore -U <username> -d cadastro -f sql/cadastro.sql
 ```
 
 - then, copy .credential_db-exemple.ini and add yours database credentials.
 
 ```bash
-> cp .credential_db-exemple.ini .credential_db.ini
+cp .credential_db-exemple.ini .credential_db.ini
 ```
 
 - finally, you can run the exeample.
